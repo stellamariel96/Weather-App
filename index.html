@@ -37,7 +37,11 @@
     <h3 id="city">
     </h3>
         <h3> <span id="temperature">
-        </span>°C
+        </span>
+        <span class="unit">
+            <a href="#" id="celsius-link" class="active"> °C</a> | 
+            <a href="#" id="fahrenheit-link"> °F</a>
+            </span>
         </h3>
         </div>
     <div class="col-md-6">
@@ -61,85 +65,17 @@
     <div class="row">
            <div class="col-sm-4">
            <h4>
-        <strong>Week</strong>
+        <strong>Forecast</strong>
     </h4>
     </div>
     </div>
     </p>
-    <div class="row">
-    <div class="col-sm-4">
-    Friday
-        </div>
-    <div class="col-sm-4">
-        <img src="http://openweathermap.org/img/wn/04d@2x.png" id="icons">
-    </div>
-    <div class="col-sm-4">
-        <div class="temp">
-            <strong>9°C</strong> | 2°C
-        </div>
-    </div>
-    <div class="col-sm-4">
-        Saturday
-    </div>
-    <div class="col-sm-4">
-        <img src="http://openweathermap.org/img/wn/04d@2x.png" id="icons">
-    </div>
-    <div class="col-sm-4">
-            <div class="temp">
-                <strong>9°C</strong> | 2°C
-            </div>
-</div>
-            <div class="col-sm-4">
-                Sunday
-            </div>
-            <div class="col-sm-4">
-                <img src="http://openweathermap.org/img/wn/04d@2x.png" id="icons">
-            </div>
-            <div class="col-sm-4">
-                <div class="temp">
-                    <strong>9°C</strong> | 2°C
-                </div>
-            </div>
-        <div class="col-sm-4">
-            Monday
-        </div>
-        <div class="col-sm-4">
-            <img src="http://openweathermap.org/img/wn/04d@2x.png" id="icons">
-        </div>
-        <div class="col-sm-4">
-            <div class="temp">
-                <strong>9°C</strong> | 2°C
-            </div>
-        </div>
-        <div class="col-sm-4">
-            Tuesday
-        </div>
-        <div class="col-sm-4">
-            <img src="http://openweathermap.org/img/wn/04d@2x.png" id="icons">
-        </div>
-        <div class="col-sm-4">
-            <div class="temp">
-            <strong>9°C</strong> | 2°C
-            </div>
-        </div>
-
-            <div class="col-sm-4">
-                Wednesday
-            </div>
-            <div class="col-sm-4">
-                <img src="http://openweathermap.org/img/wn/04d@2x.png" id="icons">
-            </div>
-            <div class="col-sm-4">
-                <div class="temp">
-                    <strong>9°C</strong> | 2°C
-                </div>
-            </div>
-    </div>
+    <div class="row weather-forecast" id="forecast">
+        </div>    
     <br/>
-    <br />
-    <div class="author">
-    <a href="https://github.com/stellamariel96/Weather-App" target="_blank">Open-source code</a> by Stella-Marie Landt
     </div>
+    <div class="author">
+        <a href="https://github.com/stellamariel96/Weather-App" target="_blank">Open-source code</a> by Stella-Marie Landt
     </div>
     <script src="java.js"></script>
 </body>

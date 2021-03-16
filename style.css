@@ -6,7 +6,29 @@ h3 {
   position: relative;
   left: 40px;
   color: #0779e4;
+  font-weight: 700;
 }
+#temperature {
+  font-weight: 500;
+  color: black;
+  font-size: 40px;
+}
+.unit {
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
+#celsius-link {
+  text-decoration: none;
+}
+#fahrenheit-link {
+  text-decoration: none;
+}
+.active {
+  color: black;
+  cursor: default;
+}
+
 #icon {
   position: relative;
   left: 30px;
